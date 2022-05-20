@@ -3,6 +3,7 @@ import React from "react";
 
 type Props = {};
 
+// remember to add an `access_token` in localStorage  or you can add it statically on graphql.ts line number 9
 const UPLOAD_FILE = gql`
   mutation paymentDisbursement(
     $slip: Upload!
